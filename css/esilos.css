@@ -1,0 +1,248 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	/*background: #171a21;*/
+	/*background-image: url( 'https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_highlight.png' );
+	background-repeat: repeat-x;*/
+	background: #171a21;
+	background-position: center top;
+	font-family: "Motiva Sans", Sans-serif;
+	color: #8F98A0
+}
+/*===============================ENCABEZADO==================*/
+header{
+	height: 80px;
+	background: #0E1014;
+}
+div#encabezado{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:5px 5px;
+	height: 25px;
+}
+ul#left{
+	list-style: none;
+	display: flex;
+	font-size: 12px;
+}
+li:hover{
+	color:#ffffff
+}
+ul#left li{
+	margin: 0px 5px;
+}
+ul#right{
+	display: flex;
+	font-size: 12px;
+	list-style: none;
+	align-items: center;
+}
+ul#right img{
+	width: 25px;
+	height: 25px;
+}
+ul#right li{
+	height: 25px;
+	display: flex;
+	align-items: center;
+}
+ul#right li:nth-child(1){
+	width: 35px;
+	margin-right: 5px;
+	background: #3E5187
+}
+ul#right li:nth-child(1) i{
+	margin: 0px auto;
+}
+ul#right li:nth-child(2){
+	width: 37px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 5px;
+	background:#5c7e10;
+	color: #ffffff;
+}
+ul#right li:nth-child(3){
+	width: 124px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	background: #3E5187
+}
+ul#right li:nth-child(3) span:nth-child(2){
+	color:#57cbde;
+	margin-left: 5px;
+}
+ul#right li:nth-child(4){
+	width: 20px;
+	height: 14px;
+	display: flex;
+	align-items: center;
+	margin:5px 10px;
+	background: #8F98A0;
+	color:#171a21;
+}
+ul#right li:nth-child(4) i{
+	margin: auto;
+}
+ul#right li:nth-child(5){
+	display: flex;
+	justify-content: space-between;
+	width: 62px;
+	margin:0px 6px 0px 6px;
+}
+ul#right li:nth-child(5) i:nth-child(1){
+	font-size: 10px;
+}
+ul#right li:nth-child(5) i:nth-child(2){
+	font-size: 12px;
+}
+ul#right li:nth-child(5) i:nth-child(3){
+	font-size: 16px;
+}
+header nav{
+	margin: 10px 0;
+	font-size: 22px;
+}
+header nav ul{
+
+}
+#flechas{
+	font-size: 18px
+}
+header nav ul li{
+	float: left;
+	list-style: none;
+	margin: 0 0px 0 10px;
+}
+nav ul li:nth-child(3){
+	color: #fff;
+}
+/*====================MENU=====================*/
+main{
+	display: flex;
+}
+
+
+/*====================SIDEBAR-TOP===================*/
+
+
+.sidebar{
+	width: 14%;
+}
+
+.sidebar div:nth-child(1){
+	font-size: 14px;
+	padding: 5px;
+	margin: 0px 5px 10px 5px;
+	line-height: 20px;
+	display: flex;
+	justify-content: space-between;
+	background: #0E1014;
+}
+.sidebar div:nth-child(1) span:nth-child(2){
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+}
+.sidebar div:nth-child(2){
+	font-size: 14px;
+	/*padding: 5px;
+	margin: 15px 5px 5px 5px;
+	line-height: 20px;*/
+	display: flex;
+	justify-content: space-between;
+}
+.sidebar div:nth-child(2) span:nth-child(1){
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	line-height: 20px;
+	background: #0E1014;
+}
+.sidebar div:nth-child(2) span:nth-child(2){
+	padding: 5px;
+	line-height: 20px;
+	margin-right: 10px;
+	font-size: 18px;
+}
+.sidebar div:nth-child(3){
+	font-size: 18px;
+	padding: 5px;
+	line-height: 20px;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	justify-content: space-between;
+	background: #0E1014;
+}
+/*====================SIDEBAR-BOTTOM============*/
+.sidebar div:nth-child(4) p{
+	font-size: 14px;
+	line-height: 18px;
+}
+.sidebar div:nth-child(4) ul{
+	list-style: none;
+	padding-left: 20px;
+}
+/*====================CONTENEDOR================*/
+.contenedor{
+	width: 86%;
+}
+.contenedor div:nth-child(1) {
+	font-size: 14px;
+	line-height: 35px;
+	padding: 10px;
+	border-bottom:1px solid #f2f2f2;
+}
+.contenedor div:nth-child(1) span{
+	font-size: 12px;
+	background:#4E4E4E;
+	padding: 5px;
+	color:white;
+	border-radius: 5%;
+}
+.contenedor div:nth-child(2){
+	
+}
+.contenedor ul{
+	list-style: none;
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border:1px solid yellow;
+	/*justify-content: space-around;*/
+	margin:10px 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.contenedor ul li{
+	
+	text-align: center;
+}
+
+.contenedor ul li img {
+	width: 230px;
+	height: 360px;
+	/*margin: 20px  40px;*/
+}
+/*======================FOOTER====================*/
+footer{
+	position: absolute;
+	bottom: 0px;
+	background: #0E1014;
+	width: 100%;
+}
+footer div{
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+	line-height: 50px;
+	margin: auto;
+}
